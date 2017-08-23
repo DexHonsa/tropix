@@ -6,6 +6,16 @@ import { Gui, SeekBar, BufferBar,
  } from 'react-jplayer';
 import JPlaylist, { connect, Playlist, Shuffle, Next, Previous, Repeat,
   TogglePlaylist, Remove, MediaLink, Title as PlaylistTitle } from 'react-jplaylist';
+import feel_good_art from '../img/feelgood.jpg';
+import time_art from '../img/timeWellWasted.jpg';
+import teflon_art from '../img/teflon3.jpg';
+
+import teflon_music from '../music/teflon.mp3';
+import feel_good_music from '../music/feel_good.mp3';
+import time_music from '../music/time.mp3';
+
+
+
 
 const AudioPlaylist = () => (
   <JPlaylist className="jp-sleek">
@@ -71,30 +81,30 @@ const jPlaylistOptions = {
       title: 'Teflon Sega - Press Play and Escape (OXILO Remix)',
       artist: 'Oxilo',
       sources: {
-        mp3: 'http://dexhonsa.com/Teflon%20Sega%20-%20Press%20Play%20and%20Escape%20(OXILO%20Remix).mp3'
+        mp3: teflon_music
 
       },
-      poster:'http://dexhonsa.com/teflon3.jpg',
+      poster:teflon_art,
       free: true,
     },
     {
       title: 'Gryffin & Illenium-Feel Good ft. Daya (OXILO Remix)',
       artist: 'Oxilo',
       sources: {
-        mp3: 'http://dexhonsa.com/Gryffin%20&%20Illenium-Feel%20Good%20ft.%20Daya%20(OXILO%20Remix).mp3',
+        mp3: feel_good_music,
 
       },
-      poster:'http://dexhonsa.com/feelgood.jpg',
+      poster:feel_good_art,
       free: true,
     },
     {
       title: 'Time Well Wasted',
       artist: 'Oxilo',
       sources: {
-        mp3: 'http://dexhonsa.com/Oxilo%20-%20Time%20Well%20Wasted%20.mp3'
+        mp3: time_music
 
       },
-      poster: 'http://dexhonsa.com/timeWellWasted.jpg',
+      poster: time_art,
       free: true,
     },
   ],
