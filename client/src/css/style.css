@@ -34,6 +34,7 @@ html, body {
 	background-attachment: fixed;
 	position: absolute;
 	top:0;
+  left:0;
 	z-index: 0;
 	width:100%;
 	height:100%;
@@ -213,6 +214,7 @@ html, body {
   #some-element { display: none; }
   .main-bg{
     background-attachment: scroll;
+    left:0;
   }
   .main-logo{
     padding-bottom:0;
