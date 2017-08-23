@@ -13,6 +13,8 @@ class App extends Component {
 
   componentDidMount(){
     new WOW.WOW().init();
+
+    
     $('.jp-playlist').addClass('animated-fast');
 
     if($('.jp-playlist').hasClass('jp-hidden')){
@@ -38,6 +40,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <div id="some-element"></div>
         <Header />
 
 

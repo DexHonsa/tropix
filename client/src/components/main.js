@@ -15,7 +15,7 @@ import '../js/script.js';
 class Main extends React.Component{
 
   componentDidMount() {
-    
+
     setTimeout(function(){
       $('.loading').removeClass('fadeIn').addClass('fadeOut');
     },0)
@@ -58,6 +58,7 @@ class Main extends React.Component{
 
     return(
       <div>
+
         <div className="loading wow animated">
           <ReactLoading type="bars" color="#488ce6" width="25px"/>
         </div>
@@ -184,14 +185,17 @@ class Main extends React.Component{
           "retina_detect": true
         }}/>
         <div className="container">
-          <div className="disc-img animate-fast fadeInUp wow">
+        <div className="row">
+          <div className="disc-img animate-fast fadeInUp wow col-sm-12 col-md-6 col-lg-6">
           <img src={teflon} />
           <div onClick={(e) => this.playMusic(e,1)} className="disc-play" id="teflon"><i className="fa fa-play play-icon"></i></div>
           </div>
-          <div className="disc-title animate-fast fadeInUp wow">
+          <div className="disc-title animate-fast fadeInUp wow col-sm-12 col-md-6 col-lg-6">
+          <div>
           <h1>Teflon Sega - Press Play and Escape (OXILO Remix)</h1><br />
           Check out Oxilo's newest remix of Teflon Sega's Press Play and Escape.  With slow spacial melodies paired with Teflon Sega's soothing vocals, this remix redefines the listening experience.
-
+          </div>
+          </div>
           </div>
         </div>
         </div>
@@ -308,14 +312,17 @@ class Main extends React.Component{
           "retina_detect": true
         }}/>
         <div className="container">
-          <div className="disc-img animate-fast fadeInUp wow">
+        <div className="row">
+          <div className="disc-img animate-fast fadeInUp wow col-sm-12 col-md-6 col-lg-6">
           <img src={feel} />
           <div onClick={(e) => this.playMusic(e,2)} className="disc-play" id="feel"><i className="fa fa-play play-icon"></i></div>
           </div>
-          <div className="disc-title animate-fast fadeInUp wow">
+          <div className="disc-title animate-fast fadeInUp wow col-sm-12 col-md-6 col-lg-6">
+          <div>
           <h1>Gryffin & Illenium Ft. Daya - Feel Good (OXILO Remix)</h1><br />
           The combination of pleasing melodies and heavy bass make this track a must-listen. Feel Good has amassed over 150,000 total streams on SoundCloud and has been featured by the Youtube Channel, Pixl Network.
-
+          </div>
+          </div>
           </div>
         </div>
         </div>
@@ -432,14 +439,17 @@ class Main extends React.Component{
           "retina_detect": true
         }}/>
         <div className="container">
-          <div className="disc-img animate-fast fadeInUp wow">
+        <div className="row">
+          <div className="disc-img animate-fast fadeInUp wow col-sm-12 col-md-6 col-lg-6">
           <img src={time} />
           <div onClick={(e) => this.playMusic(e,3)} className="disc-play" id="time"><i className="fa fa-play play-icon"></i></div>
           </div>
-          <div className="disc-title animate-fast fadeInUp wow">
+          <div className="disc-title animate-fast fadeInUp wow col-sm-12 col-md-6 col-lg-6">
+          <div>
           <h1>Oxilo - Time Well Wasted</h1><br />
           Oxilo's debut original track.  The single includes beautiful piano and synths along with a bouncy drop that is both interesting and exciting.  Take a listen.
-
+          </div>
+          </div>
           </div>
         </div>
         </div>

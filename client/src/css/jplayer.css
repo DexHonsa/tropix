@@ -124,6 +124,15 @@
   .jp-sleek.jp-jplayer.jp-state-audio:not(.jp-state-no-volume-support) .jp-gui .jp-controls .jp-title {
     display: none;
   }
+  .jp-next{
+    display: none !important;
+  }
+  .jp-previous{
+    display: none !important;
+  }
+  .jp-mute{
+    opacity: 0 !important;
+  }
 }
 @media (max-width: 580px) {
   .jp-sleek.jp-jplayer.jp-state-audio:not(.jp-state-no-volume-support):not(.jp-state-full-screen) .jp-gui .jp-controls .jp-poster {
