@@ -53,7 +53,9 @@ class Main extends React.Component{
     }
     }
   }
-
+  scrollDown(){
+    $("html, body").animate({ scrollTop: $('#first-section').offset().top }, 1000);
+  }
   render(){
 
     return(
@@ -66,6 +68,7 @@ class Main extends React.Component{
 
         <div>
         <div className="main-stage parallax--bg">
+        <div onClick={this.scrollDown.bind(this)} className="scroll-down-btn wow animated fadeInUp" data-wow-delay="1.5s"><i className="fa fa-angle-down"></i></div>
         <div className="main-bg animated-slow fadeIn wow" data-wow-delay=".5s" />
           <div className="main-logo">
             <div className="logo-line-left animated fadeInLines wow" data-wow-delay=".3s" />
@@ -73,7 +76,7 @@ class Main extends React.Component{
             <div className="logo-line-right animated fadeInLines wow" data-wow-delay=".3s" />
           </div>
         </div>
-        <div className="section-a">
+        <div id="first-section" className="section-a">
           <Particles style={{position:'absolute',top:'0'}} width="100%" height="100%" params={{
           "particles": {
             "number": {
