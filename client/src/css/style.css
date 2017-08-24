@@ -231,6 +231,9 @@ a:hover{
   color:rgb(9, 122, 255);
 }
 @media only screen and (max-width: 760px) {
+  .scroll-down-btn{
+    display: none;
+  }
   #some-element { display: none; }
   .main-bg{
     background-attachment: scroll;
