@@ -15,7 +15,7 @@ import '../js/script.js';
 class Main extends React.Component{
 
   componentDidMount() {
-
+    window.scrollTo(0,0);
     setTimeout(function(){
       $('.loading').removeClass('fadeIn').addClass('fadeOut');
     },0)

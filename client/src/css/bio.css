@@ -1,6 +1,7 @@
 .bio-stage{
   background:#000;
   width:100%;
+  min-height: 100vh;
   overflow: auto;
   padding:100px 0px;
 
@@ -12,7 +13,7 @@
 .bio-container{
   max-width: 1000px;
   width:100%;
-  
+
   color:#fff;
   text-align: center;
   font-size: 12pt;

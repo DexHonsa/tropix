@@ -2,7 +2,11 @@ import React from 'react';
 import '../css/bio.css';
 import face from '../img/face.jpg';
 import Particles from 'react-particles-js';
+import $ from 'jquery';
 class Biography extends React.Component{
+  componentDidMount(){
+    window.scrollTo(0,0);
+  }
   render(){
     return(
       <div>
