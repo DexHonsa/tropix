@@ -4,7 +4,14 @@ html, body {
   margin: 0;
   font-family: 'Quicksand', sans-serif;
 }
-
+a{
+  text-decoration: none;
+  color:inherit;
+}
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
 .main-stage {
   width: 100%;
   height: 100vh;

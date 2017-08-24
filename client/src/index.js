@@ -10,6 +10,7 @@ import { initialState as jPlayerInitialState, reducer as jPlayers } from 'react-
 import { initialState as jPlaylistInitialState, reducer as jPlaylists } from 'react-jplaylist';
 
 import Main from './components/main';
+import Biography from './components/biography';
 
 import './css/bootstrap.min.css';
 import './index.css';
@@ -48,6 +49,8 @@ ReactDOM.render(
       <Route path="/" component={App}>
       <IndexRoute component={Main}/>
       <Route path="/home" component={Main} />
+      <Route path="/bio" component={Biography} />
+
       </Route>
     </Router>
   </Provider>

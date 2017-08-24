@@ -1,5 +1,6 @@
 import React from 'react';
 import $ from 'jquery';
+import {Link} from 'react-router';
 
 class Nav extends React.Component{
   constructor(props){
@@ -27,8 +28,8 @@ class Nav extends React.Component{
           <div className="main-nav">
           <div className="nav-list">
               <li className="animated-fast wow fadeInLeft" data-wow-delay=".1s"  onClick={this.hideNav.bind(this)}>X</li>
-              <li className="animated-fast wow fadeInLeft" data-wow-delay=".3s">Home</li>
-              <li className="animated-fast wow fadeInLeft" data-wow-delay=".5s">Biography</li>
+              <li className="animated-fast wow fadeInLeft" data-wow-delay=".3s"><Link onClick={this.hideNav.bind(this)} to='/'>Home</Link></li>
+              <li className="animated-fast wow fadeInLeft" data-wow-delay=".5s"><Link onClick={this.hideNav.bind(this)} to='/bio'>Biography</Link></li>
               <li className="animated-fast wow fadeInLeft" data-wow-delay=".7s">Discography</li>
               <li className="animated-fast wow fadeInLeft" data-wow-delay=".9s">Shop</li>
               <li className="animated-fast wow fadeInLeft" data-wow-delay="1s" onClick={this.hideNav.bind(this)}>X</li>

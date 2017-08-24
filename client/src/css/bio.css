@@ -1,0 +1,26 @@
+.bio-stage{
+  background:#f2f2f2;
+  width:100%;
+  height:700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bio-container{
+  max-width: 1000px;
+  width:100%;
+  padding:25px;
+  color:#000;
+  text-align: center;
+  font-size: 12pt;
+  font-family: 'Karla';
+  text-align: justify;
+}
+.bio-container h1{
+  text-transform: uppercase;
+  font-size: 25pt;
+  color:#000;
+  margin-bottom:25px;
+  letter-spacing: 10px;
+  font-family: 'Karla';
+}
