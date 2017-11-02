@@ -233,6 +233,93 @@ a:hover{
 .scroll-down-btn:hover{
   color:rgb(9, 122, 255);
 }
+.epk-stage{
+	width:100%;
+	height:100vh;
+	background-image: url(../img/main_bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	top:0;
+	position: absolute;
+	overflow-x: hidden;
+}
+
+.slanted{
+	background: #855077;
+    height: 300px;
+    margin-top: 610px;
+    width: 100%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+    clip-path: polygon(0 97%, 100% 0%, 100% 100%, 0 100%);
+    position: relative;
+    z-index: 99;
+}
+.rest{
+	background:#855077;
+	overflow: auto;
+	width:100%;
+	position: relative;
+	z-index: 100;
+	color:#fff;
+}
+.title-1{
+	color:#ffbbd7;
+	font-size: 17pt;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	margin-bottom:15px;
+}
+.main-title{
+	font-size: 55pt;
+	line-height: 50pt;
+	color:#fff;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	left:25%;
+	top:120px;
+	position: absolute;
+	font-weight: 300;
+	width:250px;
+}
+.details{
+	font-size: 13pt;
+	line-height: 18pt;
+	letter-spacing: normal;
+	text-transform: none;
+}
+.social-icons i{
+	font-size: 12pt !important;
+	color:#fff;
+}
+.social-icons{
+	font-size: 20pt;
+	line-height: 20pt;
+}
+.details span{
+	color:#DB92E8;
+	font-weight: bold;
+}
+.disco-details{
+	font-size: 12pt;
+}
+.discography-item{
+	width:100%;
+	display: flex;
+	align-items: center;
+}
+.disco-title{
+	font-size: 15pt;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.disco-number{
+	float: left;
+	font-size: 20pt;
+	font-weight: 300;
+	margin:25px;
+}
 @media only screen and (max-width: 760px) {
   .scroll-down-btn{
     display: none;
