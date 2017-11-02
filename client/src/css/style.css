@@ -35,7 +35,7 @@ a:hover{
   pointer-events: none;
 }
 .main-bg {
-	background-image: url(../img/headphones_blue.jpg);
+	background-image: url(../img/oxilo_main.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -116,7 +116,7 @@ a:hover{
 
 .logo-line-left {
   height: 1px;
-  background: #a0bad0;
+  background: #fff;
   width: 100px;
   float: left;
   transform: scaleX(0);
@@ -127,13 +127,13 @@ a:hover{
   float: left;
   padding: 15px;
   font-size: 19pt;
-  color: #a0bad0;
+  color: #fff;
   letter-spacing: 9px;
 }
 
 .logo-line-right {
   height: 1px;
-  background: #a0bad0;
+  background: #fff;
   width: 100px;
   float: right;
   transform: scaleX(0);
@@ -156,6 +156,9 @@ a:hover{
 }
 .time-well-wasted{
   background: linear-gradient(135deg, rgb(202, 124, 214) 0%, rgba(213, 73, 132, 1) 100%);
+}
+.need-somebody{
+  background: linear-gradient(135deg, #ff9900 0%, #ff0000 100%);
 }
 .section-a .container{
 

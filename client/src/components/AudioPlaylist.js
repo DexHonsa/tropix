@@ -9,11 +9,12 @@ import JPlaylist, { connect, Playlist, Shuffle, Next, Previous, Repeat,
 import feel_good_art from '../img/feelgood.jpg';
 import time_art from '../img/timeWellWasted.jpg';
 import teflon_art from '../img/teflon3.jpg';
+import need_art from '../img/XuitcaseCity_need_somebody.jpg';
 
 import teflon_music from '../music/teflon.mp3';
 import feel_good_music from '../music/feel_good.mp3';
 import time_music from '../music/time.mp3';
-
+import need_music from '../music/need.mp3';
 
 
 
@@ -77,6 +78,16 @@ const options = {
 const jPlaylistOptions = {
   hidePlaylist: true,
   playlist: [
+    {
+      title: 'XUITCASECITY - Need Somebody (OXILO Remix)',
+      artist: 'Oxilo',
+      sources: {
+        mp3: need_music
+
+      },
+      poster:need_art,
+      free: true,
+    },
     {
       title: 'Teflon Sega - Press Play and Escape (OXILO Remix)',
       artist: 'Oxilo',

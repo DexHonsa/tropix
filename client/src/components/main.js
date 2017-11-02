@@ -6,7 +6,8 @@ import $ from 'jquery';
 import Header from './header';
 import teflon from '../img/teflon.png';
 import feel from '../img/feel_good.png';
-import time from '../img/time_well_wasted.png'
+import time from '../img/time_well_wasted.png';
+import need from '../img/need_somebody.png';
 import Particles from 'react-particles-js';
 
 import '../js/script.js';
@@ -67,7 +68,7 @@ class Main extends React.Component {
 
         <div>
           <div className="main-stage parallax--bg">
-            <div onClick={() => this.scrollDown('first-section')} className="scroll-down-btn wow animated fadeInUp" data-wow-delay="1.5s">
+            <div onClick={() => this.scrollDown('section-1')} className="scroll-down-btn wow animated fadeInUp" data-wow-delay="1.5s">
               <i className="fa fa-angle-down"></i>
             </div>
             <div className="main-bg animated-slow fadeIn wow" data-wow-delay=".5s"/>
@@ -79,8 +80,145 @@ class Main extends React.Component {
               <div className="logo-line-right animated fadeInLines wow" data-wow-delay=".3s"/>
             </div>
           </div>
-          <div id="first-section" className="section-a">
-            <div onClick={() => this.scrollDown('second-section')} className="scroll-down-btn wow animated fadeInUp white-scroll" data-wow-delay="0s">
+          <div id="section-1" className="section-a need-somebody">
+            <div onClick={() => this.scrollDown('section-2')} className="scroll-down-btn wow animated fadeInUp white-scroll" data-wow-delay="0s">
+              <i className="fa fa-angle-down"></i>
+            </div>
+            <Particles style={{
+              position: 'absolute',
+              top: '0'
+            }} width="100%" height="100%" params={{
+              "particles": {
+                "number": {
+                  "value": 80,
+                  "density": {
+                    "enable": true,
+                    "value_area": 800
+                  }
+                },
+                "color": {
+                  "value": "#fff"
+                },
+                "shape": {
+                  "type": "circle",
+                  "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                  },
+                  "polygon": {
+                    "nb_sides": 3
+                  },
+                  "image": {
+                    "src": "img/github.svg",
+                    "width": 100,
+                    "height": 100
+                  }
+                },
+                "opacity": {
+                  "value": 1,
+                  "random": true,
+                  "anim": {
+                    "enable": true,
+                    "speed": 0.959040959040959,
+                    "opacity_min": 0,
+                    "sync": false
+                  }
+                },
+                "size": {
+                  "value": 3,
+                  "random": true,
+                  "anim": {
+                    "enable": true,
+                    "speed": 2.3976023976023977,
+                    "size_min": 0.1,
+                    "sync": false
+                  }
+                },
+                "line_linked": {
+                  "enable": true,
+                  "distance": 15.782952832645451,
+                  "color": "#000000",
+                  "opacity": 0.007891476416322726,
+                  "width": 0.15782952832645453
+                },
+                "move": {
+                  "enable": true,
+                  "speed": 1.5782952832645452,
+                  "direction": "none",
+                  "random": false,
+                  "straight": false,
+                  "out_mode": "out",
+                  "bounce": false,
+                  "attract": {
+                    "enable": false,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                  }
+                }
+              },
+              "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                  "onhover": {
+                    "enable": true,
+                    "mode": "bubble"
+                  },
+                  "onclick": {
+                    "enable": true,
+                    "mode": "push"
+                  },
+                  "resize": true
+                },
+                "modes": {
+                  "grab": {
+                    "distance": 167.83216783216784,
+                    "line_linked": {
+                      "opacity": 1
+                    }
+                  },
+                  "bubble": {
+                    "distance": 300,
+                    "size": 5,
+                    "duration": 5.434565434565435,
+                    "opacity": 8,
+                    "speed": 3
+                  },
+                  "repulse": {
+                    "distance": 200,
+                    "duration": 0.4
+                  },
+                  "push": {
+                    "particles_nb": 4
+                  },
+                  "remove": {
+                    "particles_nb": 2
+                  }
+                }
+              },
+              "retina_detect": true
+            }}/>
+            <div className="container">
+              <div className="row">
+                <div className="disc-img animate-fast fadeInUp wow col-sm-12 col-md-6 col-lg-6">
+                  <img src={need}/>
+                  <div onClick={(e) => this.playMusic(e, 1)} className="disc-play" id="need">
+                    <i className="fa fa-play play-icon"></i>
+                  </div>
+                </div>
+                <div className="disc-title animate-fast fadeInUp wow col-sm-12 col-md-6 col-lg-6">
+                  <div>
+                    <h1>XUITCASECity - Need Somebody (OXILO Remix)</h1><br/>
+                    Check out Oxilo's newest remix of Teflon Sega's Press Play and Escape. With slow spacial melodies paired with Teflon Sega's soothing vocals, this remix redefines the listening experience.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div id="section-2" className="section-a">
+            <div onClick={() => this.scrollDown('section-3')} className="scroll-down-btn wow animated fadeInUp white-scroll" data-wow-delay="0s">
               <i className="fa fa-angle-down"></i>
             </div>
             <Particles style={{
@@ -200,7 +338,7 @@ class Main extends React.Component {
               <div className="row">
                 <div className="disc-img animate-fast fadeInUp wow col-sm-12 col-md-6 col-lg-6">
                   <img src={teflon}/>
-                  <div onClick={(e) => this.playMusic(e, 1)} className="disc-play" id="teflon">
+                  <div onClick={(e) => this.playMusic(e, 2)} className="disc-play" id="teflon">
                     <i className="fa fa-play play-icon"></i>
                   </div>
                 </div>
@@ -215,8 +353,8 @@ class Main extends React.Component {
 
           </div>
 
-          <div id="second-section" className="section-a feel-good">
-          <div onClick={() => this.scrollDown('third-section')} className="scroll-down-btn wow animated fadeInUp white-scroll" data-wow-delay="0s">
+          <div id="section-3" className="section-a feel-good">
+          <div onClick={() => this.scrollDown('section-4')} className="scroll-down-btn wow animated fadeInUp white-scroll" data-wow-delay="0s">
             <i className="fa fa-angle-down"></i>
           </div>
             <Particles style={{
@@ -336,7 +474,7 @@ class Main extends React.Component {
               <div className="row">
                 <div className="disc-img animate-fast fadeInUp wow col-sm-12 col-md-6 col-lg-6">
                   <img src={feel}/>
-                  <div onClick={(e) => this.playMusic(e, 2)} className="disc-play" id="feel">
+                  <div onClick={(e) => this.playMusic(e, 3)} className="disc-play" id="feel">
                     <i className="fa fa-play play-icon"></i>
                   </div>
                 </div>
@@ -350,7 +488,7 @@ class Main extends React.Component {
             </div>
           </div>
 
-          <div id="third-section" className="section-a time-well-wasted">
+          <div id="section-4" className="section-a time-well-wasted">
             <Particles style={{
               position: 'absolute',
               top: '0'
@@ -468,7 +606,7 @@ class Main extends React.Component {
               <div className="row">
                 <div className="disc-img animate-fast fadeInUp wow col-sm-12 col-md-6 col-lg-6">
                   <img src={time}/>
-                  <div onClick={(e) => this.playMusic(e, 3)} className="disc-play" id="time">
+                  <div onClick={(e) => this.playMusic(e, 4)} className="disc-play" id="time">
                     <i className="fa fa-play play-icon"></i>
                   </div>
                 </div>
