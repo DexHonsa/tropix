@@ -11,6 +11,7 @@ import { initialState as jPlaylistInitialState, reducer as jPlaylists } from 're
 
 import Main from './components/main';
 import Biography from './components/biography';
+import EPK from './components/epk';
 
 import './css/bootstrap.min.css';
 import './index.css';
@@ -50,6 +51,7 @@ ReactDOM.render(
       <IndexRoute component={Main}/>
       <Route path="/home" component={Main} />
       <Route path="/bio" component={Biography} />
+      <Route path="/epk" component={EPK} />
 
       </Route>
     </Router>
