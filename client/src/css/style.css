@@ -152,13 +152,13 @@ a:hover{
   align-items: center;
 }
 .feel-good{
-  background: linear-gradient(135deg, rgb(61, 195, 186) 0%, rgba(33, 107, 218, 1) 100%);
+  background: linear-gradient(135deg, #db9762 0%, #802a5c 100%);
 }
 .time-well-wasted{
   background: linear-gradient(135deg, rgb(202, 124, 214) 0%, rgba(213, 73, 132, 1) 100%);
 }
 .need-somebody{
-  background: linear-gradient(135deg, #ff9900 0%, #ff0000 100%);
+  background: linear-gradient(135deg, #f4d7cf 0%, #d4c4b7 100%);
 }
 .section-a .container{
 

@@ -79,8 +79,8 @@ const jPlaylistOptions = {
   hidePlaylist: true,
   playlist: [
     {
-      title: 'XUITCASECITY - Need Somebody (OXILO Remix)',
-      artist: 'Oxilo',
+      title: 'TELYKast - There For You (Tropix Remix)',
+      artist: 'Tropix',
       sources: {
         mp3: need_music
 
@@ -89,8 +89,8 @@ const jPlaylistOptions = {
       free: true,
     },
     {
-      title: 'Teflon Sega - Press Play and Escape (OXILO Remix)',
-      artist: 'Oxilo',
+      title: 'Win and Woo x Bryce Fox - Chicago (Tropix Remix)',
+      artist: 'Tropix',
       sources: {
         mp3: teflon_music
 
@@ -99,8 +99,8 @@ const jPlaylistOptions = {
       free: true,
     },
     {
-      title: 'Gryffin & Illenium-Feel Good ft. Daya (OXILO Remix)',
-      artist: 'Oxilo',
+      title: 'The Chainsmokers - My Type (Tropix Remix)',
+      artist: 'Tropix',
       sources: {
         mp3: feel_good_music,
 
@@ -109,8 +109,8 @@ const jPlaylistOptions = {
       free: true,
     },
     {
-      title: 'Time Well Wasted',
-      artist: 'Oxilo',
+      title: 'Cheat Codes feat. Demi Lovato - No Promises (Tropix Remix)',
+      artist: 'Tropix',
       sources: {
         mp3: time_music
 

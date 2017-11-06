@@ -72,13 +72,7 @@ class Main extends React.Component {
               <i className="fa fa-angle-down"></i>
             </div>
             <div className="main-bg animated-slow fadeIn wow" data-wow-delay=".5s"/>
-            <div className="main-logo">
-              <div className="logo-line-left animated fadeInLines wow" data-wow-delay=".3s"/>
-              <div className="logo-container animated fadeInUp wow" data-wow-delay=".3s">
-                <div className="logo">OXILO</div>
-              </div>
-              <div className="logo-line-right animated fadeInLines wow" data-wow-delay=".3s"/>
-            </div>
+
           </div>
           <div id="section-1" className="section-a need-somebody">
             <div onClick={() => this.scrollDown('section-2')} className="scroll-down-btn wow animated fadeInUp white-scroll" data-wow-delay="0s">
@@ -207,8 +201,8 @@ class Main extends React.Component {
                 </div>
                 <div className="disc-title animate-fast fadeInUp wow col-sm-12 col-md-6 col-lg-6">
                   <div>
-                    <h1>XUITCASECity - Need Somebody (OXILO Remix)</h1><br/>
-                    Check out Oxilo's newest remix of Teflon Sega's Press Play and Escape. With slow spacial melodies paired with Teflon Sega's soothing vocals, this remix redefines the listening experience.
+                    <h1>TELYKast - There For You (Tropix Remix)</h1><br/>
+                    Tropix’s new There for you Remix is a up tempo future bass feel good song! Telykast has provided Tropix with pitch perfect vocals that compliment a unforgettable melody. There for you Tropix (Remix) has already reached #1 on New and Hot Dance/EDM SoundCloud charts! So sit back and enjoy the trumpets!
                   </div>
                 </div>
               </div>
@@ -344,8 +338,8 @@ class Main extends React.Component {
                 </div>
                 <div className="disc-title animate-fast fadeInUp wow col-sm-12 col-md-6 col-lg-6">
                   <div>
-                    <h1>Teflon Sega - Press Play and Escape (OXILO Remix)</h1><br/>
-                    Check out Oxilo's newest remix of Teflon Sega's Press Play and Escape. With slow spacial melodies paired with Teflon Sega's soothing vocals, this remix redefines the listening experience.
+                    <h1>Win and Woo x Bryce Fox - Chicago (Tropix Remix)</h1><br/>
+                    Chicago Tropix remix is contagious! Fun to dance to, or jam out in the car. This awe inspiring song came from Win and Woo. Chicago is a future bass / melodic remix. The song features skips and  soft drops that carry well into a main sustained drop. Check it out now!
                   </div>
                 </div>
               </div>
@@ -480,8 +474,8 @@ class Main extends React.Component {
                 </div>
                 <div className="disc-title animate-fast fadeInUp wow col-sm-12 col-md-6 col-lg-6">
                   <div>
-                    <h1>Gryffin & Illenium Ft. Daya - Feel Good (OXILO Remix)</h1><br/>
-                    The combination of pleasing melodies and heavy bass make this track a must-listen. Feel Good has amassed over 150,000 total streams on SoundCloud and has been featured by the Youtube Channel, Pixl Network.
+                    <h1>The Chainsmokers - My Type (Tropix Remix)</h1><br/>
+My Type Tropix remix got the attention of the chainsmokers themselves, resulting inviting us out to a private backstage meet and greet before their show at the Encore Beach Club in Las Vegas. This is many of our fan’s favorite, go check out the dirty drop on this banger and you will be convinced as well!
                   </div>
                 </div>
               </div>
@@ -612,8 +606,8 @@ class Main extends React.Component {
                 </div>
                 <div className="disc-title animate-fast fadeInUp wow col-sm-12 col-md-6 col-lg-6">
                   <div>
-                    <h1>Oxilo - Time Well Wasted</h1><br/>
-                    Oxilo's debut original track. The single includes beautiful piano and synths along with a bouncy drop that is both interesting and exciting. Take a listen.
+                    <h1>Cheat Codes feat. Demi Lovato - No Promises (Tropix Remix)</h1><br/>
+                    No Promises Tropix Remix is Tropix’s most played track on soundcloud. It gained a lot of popularity after being featured in a Nest HQ playlist (Skrillex Curated Website). This fast paced future bass track takes the listener on a hell of a ride. The build up is sensational, and fits perfectly for the drop. Check out this song now!
                   </div>
                 </div>
               </div>
